@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p6_Portfolio_JCD</title>
+</head>
+    <style>
+        @font-face {
+            font-family: 'FAVORIT';
+            src: url('fonts/ABCFavorit-Regular-Trial/ABCFavorit-Regular-Trial.otf'),
+              url('fonts/ABCFavorit-Regular-Trial/ABCFavorit-Regular-Trial.woff')
+              url('fonts/ABCFavorit-Regular-Trial/ABCFavorit-Regular-Trial.woff2');
+        }
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        body{
+            font-family: 'FAVORIT';
+            background-image: url('IMG/FONDO.jpg');
+            background-size: cover;
+            overflow: hidden;
+        }
+        #container{
+            position: absolute;
+            z-index: 3;
+            width: 70vw;
+            height: 100vh;
+        }
+        #container2{
+            width: 30%;
+            margin-left: 60%;
+            height: 70vh;
+            padding-top: 1.5em;
+            margin-right: 0%;
+        }
+        footer{
+            position: fixed;
+            bottom: 2em;
+        }
+        header h1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40%;
+            height: 16.18em;
+        }
+        h1 img{
+           width: 15em;
+        }
+        ul{
+            width: 65%;
+            position: fixed;
+            mix-blend-mode: difference;
+            z-index: 2;
+            top: 27em;
+        }
+        ul li{
+            float: left;
+            text-align: left;
+            padding: .1em .2em;
+            font-size: 1.81em;
+            font-family:url('fonts/ABCFavorit-Regular-Trial/ABCFavorit-Regular-Trial.otf');
+            list-style-type: none;
+        }
+        a,li{
+            color: rgb(57, 255, 47);
+            text-decoration: none;
+        }
+        a, li{
+            background-color: black
+        }
+        a:hover{
+            color: rebeccapurple;
+            padding: .1em .2em;
+            background-color: whitesmoke;
+        }
+         #cont_img2{
+            position: fixed;
+            top: 0;
+            left: 0;
+            mix-blend-mode: difference;
+            width: 50vw;
+            height: 100vh;
+            background-image: url('IMG/FONDO.jpg');
+            background-size:180%;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+       
+        @media screen and (max-width: 1024px) {
+            body{
+                background-image: url('IMG/FONDOIPAD.jpg');
+            }    
+        }
+        @media screen and (max-width: 390px) {
+            body{
+                background-image: url('IMG/FONDOIPHONE.jpg');
+            } 
+        }        
+    </style>
+<body>
+    <div id="container">
+        <header>
+            <h1>
+                <img src="IMG/ROCKA.png" alt="">
+            </h1>
+        </header>
+        <main>
+            <ul>
+                <li><a href="https://canodj04.github.io/gp23_p1_jordicano/"p1>/SITIOWEB</a></li>
+                <li><a href="https://canodj04.github.io/gp23_p2/"p2>/RECURSOS GRÁFICOS</a></li>
+                <li><a href="PAGES/index.html"p3>/DISEÑO/LAWEB</a></li>
+                <li><a href="https://canodj04.github.io/GP_p4/"p4>/FUENTESYDISPLAYFLEX</a></li>
+                <li><a href="https://www.figma.com/file/VTwqAYPrBPl85yt1HrvTqz/P5?type=design&node-id=12%3A11&mode=design&t=vWTevRi9ktP4o9xv-1"p5>/DISEÑOFVSE</a></li>
+                <li><a href=" https://canodj04.github.io/GP_P5/"p6>/LAWEBFVSRESPONSIVE</a></li>
+                <li><a href="https://www.figma.com/file/VTwqAYPrBPl85yt1HrvTqz/P5?type=design&node-id=12%3A11&mode=design&t=vWTevRi9ktP4o9xv-1"p7>/MIFVS</a></li>
+                <li><a href=""p8>/LAWEBMIFVS</a></li>
+                <li><a href="https://www.figma.com/file/VTwqAYPrBPl85yt1HrvTqz/P5?type=design&node-id=12%3A11&mode=design&t=vWTevRi9ktP4o9xv-1"p9>/MIDISEÑO</a></li>
+                <li><a href=""p10>/MIPORTFOLIO/</a></li>
+            </ul>
+        </main>
+        <footer>
+            <p>@mac.harra</p> 
+        </footer>   
+    </div>
+    <div id="container2">
+        <img src="IMG/FOTOMAC.jpg" alt="">
+    </div>
+</body>
+</html>
